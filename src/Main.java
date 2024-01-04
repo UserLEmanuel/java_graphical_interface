@@ -10,5 +10,9 @@ public class Main {
         } catch (Exception e) {
             System.err.println("Eroare la conectarea la baza de date: " + e.getMessage());
         }
+        schimbare();
+    }
+    public static void schimbare(){
+        System.out.println("O mica schimbare ");
     }
 }
